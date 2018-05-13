@@ -5,13 +5,11 @@ filetype off
 " All vundle magic
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-"
-" " let Vundle manage Vundle, required
+
+" let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
-"
-" " The following are examples of different formats supported.
-" " Keep Plugin commands between vundle#begin/end.
-" " plugin on GitHub repo
+
+" Plugins
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
